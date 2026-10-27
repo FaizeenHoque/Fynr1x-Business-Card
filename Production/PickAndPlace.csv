@@ -1,0 +1,5 @@
+﻿"Designator","Device","Footprint","Mid X","Mid Y","Ref X","Ref Y","Pad X","Pad Y","Pins","Layer","Rotation","SMD","Comment","Name"
+"U1","NT3H2111W0FT1X","SO-8_L4.9-W3.9-P1.27-LS6.0-BL","38.227mm","-9.525mm","38.227mm","-9.525mm","35.777mm","-7.62mm","8","T","270","Yes","13.56MHz","13.56MHz"
+"LED1","APTD1608LSURCK","LED0603-RD_RED","33.147mm","-14.224mm","33.147mm","-14.224mm","33.144mm","-13.475mm","2","T","270","Yes","APTD1608LSURCK","APTD1608LSURCK"
+"R1","0603WAF3300T5E","R0603","36.449mm","-14.986mm","36.449mm","-14.986mm","35.696mm","-14.986mm","2","T","0","Yes","330Ω","330Ω"
+"C1","TCC0603X7R224K500CT","C0603","36.449mm","-13.208mm","36.449mm","-13.208mm","37.149mm","-13.208mm","2","T","180","Yes","220nF","220nF"
