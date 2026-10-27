@@ -1,0 +1,5 @@
+﻿"No.","Quantity","Designator","Footprint","Value","Manufacturer Part","Manufacturer","Supplier Part","Supplier","JLCPCB Stock","JLCPCB Price","LCSC Price","LCSC Stock"
+"1","1","C1","C0603","220nF","TCC0603X7R224K500CT","CCTC(三环)","C344195","LCSC","1195635","0.002","",""
+"2","1","LED1","LED0603-RD_RED","","APTD1608LSURCK","Kingbright(今台)","C5342734","LCSC","2960","0.0288","",""
+"3","1","R1","R0603","330Ω","0603WAF3300T5E","UNI-ROYAL(厚声)","C23138","LCSC","3780412","0.0004","",""
+"4","1","U1","SO-8_L4.9-W3.9-P1.27-LS6.0-BL","13.56MHz","NT3H2111W0FT1X","NXP(恩智浦)","C2654859","LCSC","29","0.2538","",""
