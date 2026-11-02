@@ -42,15 +42,32 @@ EasyEDA to fit the board outline.
 The following table is based on [`Production/BOM.csv`](Production/BOM.csv).
 Supplier and stock information reflects the export at the time of design.
 
-| Qty. | Ref. | Description | Value | Manufacturer part | Supplier part |
-|---:|:---|:---|:---|:---|:---|
-| 1 | C1 | 0603 ceramic capacitor | 220 nF | TCC0603X7R224K500CT | LCSC C344195 |
-| 1 | LED1 | 0603 red LED | Red | APTD1608LSURCK | LCSC C5342734 |
-| 1 | R1 | 0603 resistor | 330 Ω | 0603WAF3300T5E | LCSC C23138 |
-| 1 | U1 | SO-8 NFC tag IC | 13.56 MHz | NT3H2111W0FT1X | LCSC C2654859 |
+| Qty. | Ref. | Description | Value | Manufacturer part | Supplier part | Unit price |
+|---:|:---|:---|:---|:---|:---|---:|
+| 1 | C1 | 0603 ceramic capacitor | 220 nF | TCC0603X7R224K500CT | LCSC C344195 | $0.002 |
+| 1 | LED1 | 0603 red LED | Red | APTD1608LSURCK | LCSC C5342734 | $0.0288 |
+| 1 | R1 | 0603 resistor | 330 Ω | 0603WAF3300T5E | LCSC C23138 | $0.0004 |
+| 1 | U1 | SO-8 NFC tag IC | 13.56 MHz | NT3H2111W0FT1X | LCSC C2654859 | $0.2538 |
 
 The design uses four unique components and a total assembly quantity of four
-parts per card.
+parts per card. The component subtotal is approximately **$0.285 per card**
+before assembly, shipping, and other manufacturing charges.
+
+## Manufacturing cost
+
+The following prices are from a JLCPCB cart for **five cards**. They are
+quoted order totals and exclude shipping. Prices may change based on
+production settings, quantity, and component availability.
+
+| Service | Quantity | Order price | Approx. price per card |
+|:---|---:|---:|---:|
+| PCB fabrication | 5 | $5.20 | $1.04 |
+| PCBA, assembled top side | 5 | $30.19 | $6.04 |
+| PCB plus PCBA | 5 | $35.39 | $7.08 |
+
+### Manufacturing quote
+
+![JLCPCB manufacturing quote](images/manufacturing-cost.png)
 
 ## Repository contents
 
@@ -60,5 +77,4 @@ parts per card.
 | [`Production/BOM.csv`](Production/BOM.csv) | Component bill of materials |
 | [`Production/PickAndPlace.csv`](Production/PickAndPlace.csv) | Pick-and-place data |
 | [`Production/Gerber.zip`](Production/Gerber.zip) | Gerber manufacturing files |
-| [`images/`](images/) | Schematic, layout, and render images |
-
+| [`images/`](images/) | Schematic, layout, render, and manufacturing images |
